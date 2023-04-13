@@ -11,7 +11,7 @@ schemas:
     description: "Metadata for finding and understanding the data asset."
     version: "0.1.0"
     compatibilityRule: "BACKWARD"
-    url: "https://api.github.com/repos/ingka-group-digital/meta_lagom/contents/meta_schemas/meta_model/data_discovery.json?ref=main"
+    url: "https://api.github.com/repos/hetal-personal/csde/contents/meta_schemas/meta_model/data_discovery.json?ref=main"
     labels: 
       - "meta_model"
   - name: "Data Governance"
@@ -19,7 +19,7 @@ schemas:
     description: "Data Governance, i.e. data owner, confidentiality and retention policy."
     version: "0.1.0"
     compatibilityRule: "BACKWARD"
-    url: "https://api.github.com/repos/ingka-group-digital/meta_lagom/contents/meta_schemas/meta_model/data_governance.json?ref=main"
+    url: "https://api.github.com/repos/hetal-personal/csde/contents/meta_schemas/meta_model/data_governance.json?ref=main"
     labels:
       - "meta_model"
   - name: "Data Product"
@@ -27,7 +27,7 @@ schemas:
     description: "Data Product metadata."
     version: "0.1.0"
     compatibilityRule: "BACKWARD"
-    url: "https://api.github.com/repos/ingka-group-digital/meta_lagom/contents/meta_schemas/meta_model/data_product.json?ref=main"
+    url: "https://api.github.com/repos/hetal-personal/csde/contents/meta_schemas/meta_model/data_product.json?ref=main"
     labels:
       - "meta_model"
   - name: "Data Quality Dimensions"
@@ -35,7 +35,7 @@ schemas:
     description: "Data Quality Dimensions."
     version: "0.1.0"
     compatibilityRule: "BACKWARD"
-    url: "https://api.github.com/repos/ingka-group-digital/meta_lagom/contents/meta_schemas/meta_model/data_quality_dimensions.json?ref=main"
+    url: "https://api.github.com/repos/hetal-personal/csde/contents/meta_schemas/meta_model/data_quality_dimensions.json?ref=main"
     labels:
       - "meta_model"
   - name: "Software System"
@@ -43,7 +43,7 @@ schemas:
     description: "Software System metadata."
     version: "0.1.0"
     compatibilityRule: "BACKWARD"
-    url: "https://api.github.com/repos/ingka-group-digital/meta_lagom/contents/meta_schemas/meta_model/software_system.json?ref=main"
+    url: "https://api.github.com/repos/hetal-personal/csde/contents/meta_schemas/meta_model/software_system.json?ref=main"
     labels: 
       - "meta_model"
 notificationEmail: "htl.ghelani@gmail.com"
