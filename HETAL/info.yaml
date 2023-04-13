@@ -1,4 +1,4 @@
-systemName: "CSDE"
+systemName: "Test"
 schemas:
   - name: "Business Term"
     type: "JSON"
