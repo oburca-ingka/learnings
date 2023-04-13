@@ -35,6 +35,7 @@ def uploadSchema(groupID, type, artifactName, schemaDescription, schemaVersion, 
     token = os.environ['TOKEN']
     
     schemaObject = requests.get(url, headers={'Authorization': token}).json()
+    print(schemaObject)
     #extracting the schemas from the raw GitHub uri
     schemaJson = json.loads(requests.get(schemaObject["download_url"]).content)
     id = artifactName.title().replace(" ", "") + "." + type.lower()
