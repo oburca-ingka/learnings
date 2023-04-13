@@ -1,6 +1,8 @@
 name: Upload schemas
 on:
-  push:
+  workflow_dispatch:
+    paths:
+      - '**/info.yaml'
 jobs:
   build:
     name: Upload configuration
