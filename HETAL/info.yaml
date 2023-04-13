@@ -16,7 +16,7 @@ schemas:
       - "meta_model"
   - name: "Data Governance"
     type: "JSON"
-    description: "Data Governance, i.e. data owner, confidentiality and retention policy."
+    description: "Data Governance, i.e. data owner, confidentiality"
     version: "0.1.0"
     compatibilityRule: "BACKWARD"
     url: "https://api.github.com/repos/hetal-personal/csde/contents/meta_schemas/meta_model/data_governance.json?ref=main"
