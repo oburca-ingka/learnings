@@ -32,7 +32,7 @@ def uploadSchema(groupID, type, artifactName, schemaDescription, schemaVersion, 
       username=os.environ['ID'],
       password=os.environ['SECRET']
     )
-    token = 'Bearer ' + os.environ['TOKEN']
+    token = os.environ['TOKEN']
     
     schemaObject = requests.get(url, headers={'Authorization': token}).json()
     #extracting the schemas from the raw GitHub uri
